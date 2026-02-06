@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Rubik+Glitch&display=swap');
+
+* {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Ctext y='24' font-size='24'%3E🤪%3C/text%3E%3C/svg%3E"), auto;
+}
+
+body {
+  overflow-x: hidden;
+  background: #0a0a0a;
+}
+
+.chaos-cursor {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Ctext y='24' font-size='24'%3E💥%3C/text%3E%3C/svg%3E"), auto;
+}
+
+.random-rotate {
+  transform: rotate(var(--rotation, 0deg));
+}
+
+.mobile-safe-container {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
